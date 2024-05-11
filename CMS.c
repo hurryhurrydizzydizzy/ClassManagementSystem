@@ -71,13 +71,14 @@ int main(void)
     // Phase 3
     // Initialize option value
     int option = 1;
+    int index = -1;
     while (option >= 1 && option <= 3)
     {
         // Print options
         printf("Select Option:\n");
         printf("[1] Add Student\n[2] Display student record\n[3] Search\n[4] Exit\n\n> ");
         scanf("%d", &option);
-        int index = -1;
+       
         if (option == 1)
         {
             // [3.A] Add Student Option
